@@ -2,6 +2,7 @@
 @import './partials/variables.css';
 @import './partials/home.css';
 @import './partials/layout.css';
+@import './partials/contact.css';
 
 /* media queries always go at the end dont add anything below this */
 @import './partials/media-queries.css';

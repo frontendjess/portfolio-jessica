@@ -1,7 +1,6 @@
 /* hero */
 .hero {
 	width: 100%;
-	max-width: 100%;
 	height: 100vh;
 	background-color: #000;
 	position: relative;
@@ -15,6 +14,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	max-width: 122.5rem;
 }
 
 .hero-title {
@@ -110,7 +110,140 @@
 	align-self: flex-end;
 	text-align: right;
 	padding-right: 2rem;
-	height: 50vh;
 	margin-bottom: -9.9rem;
 	margin-left: -2rem;
+	height: 45vh;
+}
+
+/* about me section */
+.about-title {
+	padding: 5.9rem 0;
+}
+
+.about-me img {
+	width: 50%;
+}
+
+.about-info-container {
+	display: flex;
+	width: 100%;
+	padding: 4.8rem 0;
+}
+
+.about-me {
+	width: 50%;
+	text-align: center;
+}
+
+.about-myname {
+	margin-top: 2.4rem;
+}
+
+.about-me h5,
+.about-me h6 {
+	padding: 0.4rem 0;
+}
+
+.about-text p {
+	letter-spacing: 0.16rem;
+	line-height: 2.56rem;
+	margin-bottom: 2.56rem;
+}
+
+.about-text {
+	width: 50%;
+}
+
+/* projects section */
+.projects-container {
+	padding: 4.8rem 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.projects-container h3,
+.projects-container h4,
+.projects-container h5 {
+	text-transform: uppercase;
+}
+
+.projects-info-container {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	padding: 2.4rem 0;
+}
+
+.projects-number {
+	width: 30%;
+}
+
+.projects-text {
+	width: 70%;
+}
+
+.projects-text a {
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	line-height: 5.76rem;
+	letter-spacing: 0.3rem;
+	font-weight: 700;
+	color: #000;
+}
+
+.projects-text a:hover {
+	background-color: var(--light-blue-color);
+	padding: 1rem;
+	opacity: 1;
+	transition: 0.2s ease;
+}
+
+.projects-container .asterisk-linebreak {
+	padding-top: 5.9rem;
+}
+
+.get-in-touch-link {
+	font-size: 1.8rem;
+	font-family: var(--main-font);
+	line-height: 3.2rem;
+	letter-spacing: 0.2rem;
+	color: #000;
+}
+
+.see-more-work {
+	padding: 2.4rem 0;
+}
+
+.see-more-work h5,
+.see-more-work a {
+	display: inline-block;
+}
+
+.see-more-work a:hover {
+	background-color: var(--light-blue-color);
+	padding: 0.5rem;
+	opacity: 1;
+	transition: 0.2s ease;
+}
+
+/* contact section */
+.contact-container {
+	/* padding: 4.8rem 0; */
+}
+
+.contact-info-p {
+	width: 55%;
+	padding: 2.4rem 0;
+	text-align: left;
+}
+
+.contact-container .asterisk-linebreak {
+	padding-top: 5.9rem;
+}
+
+/* work with me section */
+.text-banner {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
 }
