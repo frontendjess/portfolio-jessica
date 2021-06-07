@@ -1,0 +1,92 @@
+/* desktop version */
+@media screen and (min-width: 900px) {
+}
+
+/* larger desktop version */
+@media screen and (min-width: 1500px) {
+	.hero-buttons {
+		margin: 15vh auto;
+	}
+
+	.hero-jessica-mitchell-container {
+		height: 50vh;
+	}
+
+	.hero--jessica h2,
+	.hero--mitchell h2 {
+		font-size: 16rem;
+		padding: 10rem 0;
+	}
+}
+
+/* mobile ipad version */
+@media screen and (max-width: 899px) {
+}
+
+/* mobile version */
+@media screen and (max-width: 479px) {
+}
+
+/* animations */
+@keyframes fadeUp {
+	0% {
+		transform: translateY(4rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes scale {
+	0% {
+		transform: scale(2);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes grow {
+	0% {
+		width: 0;
+	}
+	100% {
+		opacity: 1;
+		width: 100%;
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes fadeDown {
+	0% {
+		transform: translateY(-1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes up {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-1rem);
+	}
+}

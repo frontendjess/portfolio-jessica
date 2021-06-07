@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: var(--body-font);
+	font-size: 10px;
+	color: var(--body-font);
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+section,
+.section {
+	padding: 7.9rem 0;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: var(--bright-blue-color);
+}
+
+/* a:hover {
+	filter: brightness(0.6);
+} */
+
+p {
+	font-size: 1.6rem;
+	line-height: 2.56rem;
+}
+
+.container {
+	width: 100%;
+	max-width: 122.5rem;
+	margin: 0 auto;
+	padding: 0 2.4rem;
+}
+
+/* header */
+header {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #000;
+}
+
+.logo img {
+	max-width: 7%;
+	margin: 1rem;
+}
+
+/* fonts */
+/*
+H1 - 
+H2 - 5.2 rem / line-height 8.32rem
+H3 - 3.6 rem / line-height 5.76rem
+H4 - 2.4 rem / line-height 3.84rem
+H5 - 2.0 rem / line-height 3.2rem
+*/
+
+h2 {
+	font-size: 5.2rem;
+	font-family: var(--main-font);
+	line-height: 8.32rem;
+	letter-spacing: 0.5rem;
+}
+
+h3 {
+	font-size: 3.6rem;
+	font-family: var(--main-font);
+	line-height: 5.76rem;
+	letter-spacing: 0.3rem;
+}
+
+h4 {
+	font-size: 2.4rem;
+	font-family: var(--main-font);
+	line-height: 3.84rem;
+	letter-spacing: 0.3rem;
+}
+
+h5 {
+	font-size: 1.8rem;
+	font-family: var(--main-font);
+	line-height: 3.2rem;
+	letter-spacing: 0.2rem;
+}

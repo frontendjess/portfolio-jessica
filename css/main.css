@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;600;700;800&display=swap');
+@import './partials/variables.css';
+@import './partials/home.css';
+@import './partials/layout.css';
+
+/* media queries always go at the end dont add anything below this */
+@import './partials/media-queries.css';

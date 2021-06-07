@@ -1,0 +1,10 @@
+:root {
+	--main-font: 'Poppins', sans-serif;
+	--secondary-font: 'Playfair Display', serif;
+	--body-font: 'Poppins', sans-serif;
+	--main-font-color-dark: #000;
+	--secondary-font-color: #00c2ff;
+	--body-font-color: #000;
+	--light-blue-color: #ccf3ff;
+	--bright-blue-color: #0066ff;
+}
