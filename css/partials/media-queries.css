@@ -91,7 +91,11 @@
 	}
 
 	.hero-jessica-mitchell-container {
-		height: 35vh;
+		height: 40vh;
+	}
+
+	.hero--mitchell {
+		height: 30vh;
 	}
 }
 
