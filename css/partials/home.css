@@ -323,4 +323,20 @@
 .text-banner {
 	border-top: solid 1px black;
 	border-bottom: solid 1px black;
+	padding-left: 0;
+	width: 100%;
+	left: -15rem;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.marquee {
+	display: inline-block;
+	text-indent: 0;
+	-moz-transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-moz-animation: scroll-left 2s linear infinite;
+	-webkit-animation: scroll-left 2s linear infinite;
+	animation: scroll-left 15s linear infinite;
 }
