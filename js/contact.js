@@ -54,7 +54,8 @@ submit.onclick = function (event) {
 		validateEmail(email) &&
 		testLen(message, 25)
 	) {
-		alert('Message sent!');
+		// alert('Message sent!');
+		window.open('mailto:hello@jessicadev.com');
 	}
 };
 
