@@ -116,23 +116,29 @@
 }
 
 /* about me section */
+.about-container {
+	padding: 0 2rem;
+}
+
 .about-title {
 	padding: 5.9rem 0;
 }
 
 .about-me img {
-	width: 50%;
+	width: 100%;
 }
 
 .about-info-container {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	padding: 4.8rem 0;
 }
 
 .about-me {
-	width: 50%;
+	width: 100%;
 	text-align: center;
+	padding-bottom: 2.4rem;
 }
 
 .about-myname {
@@ -151,12 +157,12 @@
 }
 
 .about-text {
-	width: 50%;
+	width: 100%;
 }
 
 /* projects section */
 .projects-container {
-	padding: 4.8rem 0;
+	padding: 0 2.4rem;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -171,7 +177,7 @@
 .projects-info-container {
 	display: flex;
 	width: 100%;
-	flex-direction: row;
+	flex-direction: column;
 	padding: 2.4rem 0;
 }
 
@@ -184,12 +190,20 @@
 }
 
 .projects-text a {
-	font-size: 3.6rem;
+	font-size: 2.8rem;
 	text-transform: uppercase;
 	line-height: 5.76rem;
 	letter-spacing: 0.3rem;
 	font-weight: 700;
 	color: #000;
+}
+
+.projects-text h3 {
+	font-size: 2.8rem;
+}
+
+.projects-text h4 {
+	font-size: 2rem;
 }
 
 .projects-text a:hover {
@@ -229,17 +243,80 @@
 
 /* contact section */
 .contact-container {
-	/* padding: 4.8rem 0; */
+	padding: 0 2.4rem;
 }
 
 .contact-info-p {
-	width: 55%;
+	width: 100%;
 	padding: 2.4rem 0;
 	text-align: left;
 }
 
 .contact-container .asterisk-linebreak {
 	padding-top: 5.9rem;
+}
+
+.error {
+	color: red;
+	display: none;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.contact-container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact-p {
+	padding: 3.9rem 0;
+}
+
+.form_div {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.form_div input {
+	width: 100%;
+	padding: 1.2rem;
+	margin: 2rem 0;
+	border-radius: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.12rem;
+	border: none;
+	background-color: var(--light-blue-color);
+}
+
+.submit-btn {
+	width: 100%;
+	margin: 2.4rem 0;
+	padding: 1.8rem;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 0.16rem;
+	font-size: 1.6rem;
+	font-family: var(--main-font);
+	border-radius: 1rem;
+}
+.submit-btn:hover {
+	cursor: pointer;
+	background-color: var(--secondary-font-color);
+	color: #000;
+	opacity: 1;
+	transition: 0.2s ease;
+}
+
+.contact-form-container {
+	width: 100%;
 }
 
 /* work with me section */

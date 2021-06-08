@@ -20,6 +20,68 @@
 	.hero--contact-btn {
 		margin: 0rem;
 	}
+
+	/* about me section */
+	.about-info-container {
+		flex-direction: row;
+	}
+
+	.about-me {
+		padding-bottom: 0rem;
+	}
+
+	.about-me,
+	.about-text {
+		width: 50%;
+	}
+
+	.about-me img {
+		width: 50%;
+	}
+
+	/* projects section */
+	.projects-info-container {
+		flex-direction: row;
+	}
+
+	.projects-text a {
+		font-size: 3.6rem;
+	}
+
+	.projects-text h3 {
+		font-size: 3.6rem;
+	}
+
+	.projects-text h4 {
+		font-size: 2.4rem;
+	}
+
+	/* contact section */
+	.contact-info-p {
+		width: 55%;
+	}
+
+	.contact-form-container {
+		width: 40%;
+	}
+
+	/* footer */
+	.footer-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.footer-links,
+	.footer-co {
+		width: 50%;
+		padding: 0 2.4rem;
+	}
+
+	.footer-co {
+		padding-top: 2.4rem;
+		justify-content: flex-end;
+	}
 }
 
 /* larger desktop version */
