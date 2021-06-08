@@ -331,6 +331,12 @@
 }
 
 .marquee {
+	font-weight: 800;
+	font-size: 5.2rem;
+	font-family: var(--main-font);
+	line-height: 8.32rem;
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
 	display: inline-block;
 	text-indent: 0;
 	-moz-transform: translateX(100%);
