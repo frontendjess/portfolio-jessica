@@ -72,7 +72,7 @@
 .hero-jessica-mitchell-container {
 	width: 100%;
 	max-width: 122.5rem;
-	height: 50vh;
+	/* height: 50vh; */
 	color: #fff;
 	display: flex;
 	flex-wrap: wrap;
@@ -99,7 +99,7 @@
 }
 
 .hero--asterisk {
-	font-size: 5rem;
+	font-size: 3rem;
 	animation: spin 1s forwards;
 	animation-delay: 1.7s;
 }
