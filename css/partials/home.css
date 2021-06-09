@@ -72,12 +72,12 @@
 .hero-jessica-mitchell-container {
 	width: 100%;
 	max-width: 122.5rem;
-	height: 50vh;
+	/* height: 50vh; */
 	color: #fff;
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
-	bottom: 0.5rem;
+	bottom: 1.5rem;
 	padding-top: 1rem;
 }
 
